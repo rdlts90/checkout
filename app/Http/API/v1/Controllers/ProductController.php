@@ -44,7 +44,7 @@ class ProductController extends Controller
      *         description="SKU do produto a ser buscado",
      *         required=true,
      *         @OA\Schema(
-     *             type="string"
+     *             type="integer"
      *         )
      *     ),
      *     @OA\Parameter(
@@ -59,7 +59,7 @@ class ProductController extends Controller
      *     @OA\Parameter(
      *         name="storeName",
      *         in="path",
-     *         description="Nome da loja onde o produto será buscado",
+     *         description="Nome da loja [DROGARAIA, DROGASIL, ONOFRE]",
      *         required=true,
      *         @OA\Schema(
      *             type="string"

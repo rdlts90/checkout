@@ -21,6 +21,8 @@ class ProductDTO extends BaseDTO implements BaseDTOInterface
 
     private $qty;
 
+    private $valueTo;
+
     /**
      * @return string
      */
@@ -85,6 +87,19 @@ class ProductDTO extends BaseDTO implements BaseDTOInterface
         $this->qty = $qty;
     }
 
+    public function getValueTo()
+    {
+        return $this->valueTo;
+    }
+
+    /**
+     * @param float $valueTo
+     */
+    public function setValueTo($valueTo): void
+    {
+        $this->valueTo = $valueTo;
+    }
+
     /**
      * @return array
      */
@@ -95,6 +110,7 @@ class ProductDTO extends BaseDTO implements BaseDTOInterface
             'zipcode' => $this->zipcode,
             'storeName' => $this->storeName,
             'qty' => $this->qty,
+            'valueTo' => $this->valueTo,
         ];
     }
 }

@@ -66,8 +66,11 @@ class ProductIntegrationService extends BaseService implements ProductIntegratio
 
         $price = $this->priceConn->getProductPrice($productDTO) ?? [];
         $stock = $this->stockConn->getProductStock($productDTO) ?? [];
-        $shipping = $this->shippingConn->getProductShipping($productDTO) ?? [];
 
+        if ($price)
+            $productDTO->setValueTo($price['valueTo']);
+
+        $shipping = $this->shippingConn->getProductShipping($productDTO) ?? [];
 
         $this->composition->setPrice($price)
             ->setStock($stock)

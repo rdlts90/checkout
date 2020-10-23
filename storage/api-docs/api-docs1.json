@@ -2011,14 +2011,14 @@
                         "description": "SKU do produto a ser buscado",
                         "required": true,
                         "schema": {
-                            "type": "string"
+                            "type": "integer"
                         }
                     },
                     {
                         "name": "zipcode",
                         "in": "path",
                         "description": "Cep para a entrega do produto",
-                        "required": true,
+                        "required": false,
                         "schema": {
                             "type": "string"
                         }
@@ -2026,17 +2026,17 @@
                     {
                         "name": "storeName",
                         "in": "path",
-                        "description": "Nome da loja onde o produto será buscado",
+                        "description": "Nome da loja [DROGARAIA, DROGASIL, ONOFRE]",
                         "required": true,
                         "schema": {
                             "type": "string"
                         }
                     },
                     {
-                        "name": "quantity",
+                        "name": "qty",
                         "in": "path",
                         "description": "quantidade do produto a ser entregue no Cep informado",
-                        "required": true,
+                        "required": false,
                         "schema": {
                             "type": "string"
                         }

@@ -34,12 +34,13 @@ class Shipping
         $sku = $productDTO->getSku();
         $zipcode = $productDTO->getZipcode();
         $qty = $productDTO->getQty();
+        $valueTo = $productDTO->getValueTo();
 
-        if (!$zipcode || !$qty) {
+        if (!$zipcode || !$qty || !$valueTo) {
             return [];
         }
 
-        $requestDTO = $this->buildRequest($storeName, $sku, $zipcode, $qty);
+        $requestDTO = $this->buildRequest($storeName, $sku, $zipcode, $qty, $valueTo);
 
         $responseDTO = $this->sendRequest($requestDTO);
         if ($responseDTO->isError()) {
@@ -57,7 +58,7 @@ class Shipping
      *
      * @return \Raiadrogasil\Connect\DTO\RequestDTO
      */
-    public function buildRequest(string $storeName, int $sku, int $zipcode, int $qty): RequestDTO
+    public function buildRequest(string $storeName, int $sku, int $zipcode, int $qty, float $valueTo): RequestDTO
     {
         $configUriApi = configuration(EnumConfiguration::MS_GROUP, EnumConfiguration::RD_URI_API_SHIPPING_QUOTE);
 
@@ -68,6 +69,17 @@ class Shipping
             ->setQueryString('sku', $sku)
             ->setQueryString('zipcode', $zipcode)
             ->setQueryString('qty', $qty)
+            ->setBodyRequest([
+                "storeName" => $storeName,
+                "channel" => "SITE",
+                "zipCode" => $zipcode,
+                "product" => [[
+                    "sku" => $sku,
+                    "qty" => $qty,
+                    "onHealth" => 1,
+                    "valueTo" => $valueTo,
+                ]]
+            ])
             ->setTimeOut(2);
     }
 

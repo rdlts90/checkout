@@ -1,3 +1,4 @@
+
 <?php
 
 use App\Domain\DTO\ProductDTO;
@@ -22,7 +23,7 @@ class StockTest extends \Raiadrogasil\Test\BaseTestCase
         $conn->shouldReceive('send')->andReturn($responseDefaultDTO);
 
         $mock = Mockery::mock(\App\Services\Connect\Microservice\Stock::class, [$conn])->makePartial()->shouldAllowMockingProtectedMethods()
-            ->shouldReceive('buildBodyRequestOffer')->andReturn(['NA'])->getMock();
+            ->shouldReceive('buildRequestOffer')->andReturn(['NA'])->getMock();
 
         $result = $mock->getProductStock($productDTO);
         $this->assertEquals('NA', $result);

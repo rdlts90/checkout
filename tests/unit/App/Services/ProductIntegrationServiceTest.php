@@ -58,7 +58,7 @@ class ProductIntegrationServiceTest extends \Raiadrogasil\Test\BaseTestCase
     public function testPriceStockShippingShouldReturnFalse()
     {
         $this->mockComposition->shouldAllowMockingProtectedMethods()
-            ->shouldReceive('getPrice', 'getStock', 'getQuoteShipping')
+            ->shouldReceive('setPrice', 'setStock', 'setShipping')
             ->andReturn($this->mockComposition);
 
         $this->mockPrice

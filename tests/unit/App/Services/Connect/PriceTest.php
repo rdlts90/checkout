@@ -21,8 +21,9 @@ class PriceTest extends \Raiadrogasil\Test\BaseTestCase
         $conn = Mockery::mock(\Raiadrogasil\Connect\ClientConnect::class)->makePartial();
         $conn->shouldReceive('send')->andReturn($responseDefaultDTO);
 
-        $mock = Mockery::mock(\App\Services\Connect\Microservice\Price::class, [$conn])->makePartial()->shouldAllowMockingProtectedMethods()
-            ->shouldReceive('buildBodyRequestOffer')->andReturn(['NA'])->getMock();
+        $mock = Mockery::mock(\App\Services\Connect\Microservice\Price::class, [$conn])
+        ->makePartial()
+        ->shouldAllowMockingProtectedMethods();
 
         $result = $mock->getProductPrice($productDTO);
         $this->assertEquals('NA', $result);

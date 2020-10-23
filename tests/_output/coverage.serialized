@@ -183,14 +183,12 @@ $coverage->setData(array (
       0 => 'CompositionTest::testWithPriceStockShipping',
       1 => 'CompositionTest::testPriceStockWithoutShipping',
       2 => 'ProductIntegrationServiceTest::testGetAllCheckout',
-      3 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
     ),
     39 => 
     array (
       0 => 'CompositionTest::testWithPriceStockShipping',
       1 => 'CompositionTest::testPriceStockWithoutShipping',
       2 => 'ProductIntegrationServiceTest::testGetAllCheckout',
-      3 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
     ),
     40 => NULL,
     49 => 
@@ -209,7 +207,6 @@ $coverage->setData(array (
       1 => 'CompositionTest::testPriceWithoutStockShippig',
       2 => 'CompositionTest::testPriceStockWithoutShipping',
       3 => 'ProductIntegrationServiceTest::testGetAllCheckout',
-      4 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
     ),
     75 => 
     array (
@@ -217,20 +214,17 @@ $coverage->setData(array (
       1 => 'CompositionTest::testPriceWithoutStockShippig',
       2 => 'CompositionTest::testPriceStockWithoutShipping',
       3 => 'ProductIntegrationServiceTest::testGetAllCheckout',
-      4 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
     ),
     76 => NULL,
     87 => 
     array (
       0 => 'CompositionTest::testWithPriceStockShipping',
       1 => 'ProductIntegrationServiceTest::testGetAllCheckout',
-      2 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
     ),
     89 => 
     array (
       0 => 'CompositionTest::testWithPriceStockShipping',
       1 => 'ProductIntegrationServiceTest::testGetAllCheckout',
-      2 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
     ),
     90 => NULL,
     101 => 
@@ -666,22 +660,20 @@ $coverage->setData(array (
       0 => 'ProductIntegrationServiceTest::testGetAllCheckout',
       1 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
     ),
-    69 => 
+    70 => 
     array (
       0 => 'ProductIntegrationServiceTest::testGetAllCheckout',
       1 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
     ),
-    72 => 
+    71 => 
     array (
-      0 => 'ProductIntegrationServiceTest::testGetAllCheckout',
-      1 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
     ),
     73 => 
     array (
       0 => 'ProductIntegrationServiceTest::testGetAllCheckout',
       1 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
     ),
-    74 => 
+    75 => 
     array (
       0 => 'ProductIntegrationServiceTest::testGetAllCheckout',
       1 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
@@ -691,7 +683,17 @@ $coverage->setData(array (
       0 => 'ProductIntegrationServiceTest::testGetAllCheckout',
       1 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
     ),
-    77 => NULL,
+    77 => 
+    array (
+      0 => 'ProductIntegrationServiceTest::testGetAllCheckout',
+      1 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
+    ),
+    79 => 
+    array (
+      0 => 'ProductIntegrationServiceTest::testGetAllCheckout',
+      1 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
+    ),
+    80 => NULL,
   ),
   '/var/www/html/ms/checkout/app/Repositories/Cache/PriceCache.php' => 
   array (
@@ -764,129 +766,210 @@ $coverage->setData(array (
   array (
     21 => 
     array (
-      0 => 'ShippingTest::testGetShippingQuote',
-      1 => 'ShippingTest::testGetShippingQuoteWithoutZipcode',
-      2 => 'ShippingTest::testGetShippingQuoteWithoutQty',
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
+      2 => 'ShippingTest::testGetShippingWithoutZipcode',
+      3 => 'ShippingTest::testGetShippingWithoutQty',
+      4 => 'ShippingTest::testGetShippingWithoutValueTo',
     ),
     22 => 
     array (
-      0 => 'ShippingTest::testGetShippingQuote',
-      1 => 'ShippingTest::testGetShippingQuoteWithoutZipcode',
-      2 => 'ShippingTest::testGetShippingQuoteWithoutQty',
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
+      2 => 'ShippingTest::testGetShippingWithoutZipcode',
+      3 => 'ShippingTest::testGetShippingWithoutQty',
+      4 => 'ShippingTest::testGetShippingWithoutValueTo',
     ),
     33 => 
     array (
-      0 => 'ShippingTest::testGetShippingQuote',
-      1 => 'ShippingTest::testGetShippingQuoteWithoutZipcode',
-      2 => 'ShippingTest::testGetShippingQuoteWithoutQty',
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
+      2 => 'ShippingTest::testGetShippingWithoutZipcode',
+      3 => 'ShippingTest::testGetShippingWithoutQty',
+      4 => 'ShippingTest::testGetShippingWithoutValueTo',
     ),
     34 => 
     array (
-      0 => 'ShippingTest::testGetShippingQuote',
-      1 => 'ShippingTest::testGetShippingQuoteWithoutZipcode',
-      2 => 'ShippingTest::testGetShippingQuoteWithoutQty',
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
+      2 => 'ShippingTest::testGetShippingWithoutZipcode',
+      3 => 'ShippingTest::testGetShippingWithoutQty',
+      4 => 'ShippingTest::testGetShippingWithoutValueTo',
     ),
     35 => 
     array (
-      0 => 'ShippingTest::testGetShippingQuote',
-      1 => 'ShippingTest::testGetShippingQuoteWithoutZipcode',
-      2 => 'ShippingTest::testGetShippingQuoteWithoutQty',
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
+      2 => 'ShippingTest::testGetShippingWithoutZipcode',
+      3 => 'ShippingTest::testGetShippingWithoutQty',
+      4 => 'ShippingTest::testGetShippingWithoutValueTo',
     ),
     36 => 
     array (
-      0 => 'ShippingTest::testGetShippingQuote',
-      1 => 'ShippingTest::testGetShippingQuoteWithoutZipcode',
-      2 => 'ShippingTest::testGetShippingQuoteWithoutQty',
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
+      2 => 'ShippingTest::testGetShippingWithoutZipcode',
+      3 => 'ShippingTest::testGetShippingWithoutQty',
+      4 => 'ShippingTest::testGetShippingWithoutValueTo',
     ),
-    38 => 
+    37 => 
     array (
-      0 => 'ShippingTest::testGetShippingQuote',
-      1 => 'ShippingTest::testGetShippingQuoteWithoutZipcode',
-      2 => 'ShippingTest::testGetShippingQuoteWithoutQty',
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
+      2 => 'ShippingTest::testGetShippingWithoutZipcode',
+      3 => 'ShippingTest::testGetShippingWithoutQty',
+      4 => 'ShippingTest::testGetShippingWithoutValueTo',
     ),
     39 => 
     array (
-      0 => 'ShippingTest::testGetShippingQuoteWithoutZipcode',
-      1 => 'ShippingTest::testGetShippingQuoteWithoutQty',
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
+      2 => 'ShippingTest::testGetShippingWithoutZipcode',
+      3 => 'ShippingTest::testGetShippingWithoutQty',
+      4 => 'ShippingTest::testGetShippingWithoutValueTo',
     ),
-    42 => 
+    40 => 
     array (
-      0 => 'ShippingTest::testGetShippingQuote',
+      0 => 'ShippingTest::testGetShippingWithoutZipcode',
+      1 => 'ShippingTest::testGetShippingWithoutQty',
+      2 => 'ShippingTest::testGetShippingWithoutValueTo',
     ),
-    44 => 
+    43 => 
     array (
-      0 => 'ShippingTest::testGetShippingQuote',
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
     ),
     45 => 
     array (
-      0 => 'ShippingTest::testGetShippingQuote',
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
     ),
     46 => 
     array (
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
     ),
-    49 => 
+    47 => 
     array (
-      0 => 'ShippingTest::testGetShippingQuote',
+      0 => 'ShippingTest::testResponseValidateReturnFail',
     ),
-    50 => NULL,
-    62 => 
+    50 => 
     array (
-      0 => 'ShippingTest::testGetShippingQuote',
+      0 => 'ShippingTest::testGetShipping',
     ),
-    64 => 
+    51 => NULL,
+    63 => 
     array (
-      0 => 'ShippingTest::testGetShippingQuote',
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
     ),
-    66 => 
+    65 => 
     array (
-      0 => 'ShippingTest::testGetShippingQuote',
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
     ),
     67 => 
     array (
-      0 => 'ShippingTest::testGetShippingQuote',
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
     ),
     68 => 
     array (
-      0 => 'ShippingTest::testGetShippingQuote',
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
     ),
     69 => 
     array (
-      0 => 'ShippingTest::testGetShippingQuote',
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
     ),
     70 => 
     array (
-      0 => 'ShippingTest::testGetShippingQuote',
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
     ),
     71 => 
     array (
-      0 => 'ShippingTest::testGetShippingQuote',
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
     ),
-    72 => NULL,
-    81 => 
+    72 => 
     array (
-      0 => 'ShippingTest::testGetShippingQuote',
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
+    ),
+    73 => 
+    array (
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
+    ),
+    74 => 
+    array (
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
+    ),
+    75 => 
+    array (
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
+    ),
+    77 => 
+    array (
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
+    ),
+    78 => 
+    array (
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
+    ),
+    79 => 
+    array (
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
+    ),
+    80 => 
+    array (
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
     ),
     83 => 
     array (
-      0 => 'ShippingTest::testGetShippingQuote',
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
     ),
-    84 => 
+    84 => NULL,
+    93 => 
     array (
-      0 => 'ShippingTest::testGetShippingQuote',
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
     ),
-    85 => 
+    95 => 
     array (
-      0 => 'ShippingTest::testGetShippingQuote',
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
     ),
-    86 => 
+    96 => 
     array (
-      0 => 'ShippingTest::testGetShippingQuote',
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
     ),
-    87 => 
+    97 => 
     array (
-      0 => 'ShippingTest::testGetShippingQuote',
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
     ),
-    88 => NULL,
+    98 => 
+    array (
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
+    ),
+    99 => 
+    array (
+      0 => 'ShippingTest::testGetShipping',
+      1 => 'ShippingTest::testResponseValidateReturnFail',
+    ),
+    100 => NULL,
   ),
 ));
 $coverage->setTests(array (
@@ -1050,17 +1133,27 @@ $coverage->setTests(array (
     'size' => 'unknown',
     'status' => 0,
   ),
-  'ShippingTest::testGetShippingQuote' => 
+  'ShippingTest::testGetShipping' => 
   array (
     'size' => 'unknown',
     'status' => 0,
   ),
-  'ShippingTest::testGetShippingQuoteWithoutZipcode' => 
+  'ShippingTest::testResponseValidateReturnFail' => 
   array (
     'size' => 'unknown',
     'status' => 0,
   ),
-  'ShippingTest::testGetShippingQuoteWithoutQty' => 
+  'ShippingTest::testGetShippingWithoutZipcode' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'ShippingTest::testGetShippingWithoutQty' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'ShippingTest::testGetShippingWithoutValueTo' => 
   array (
     'size' => 'unknown',
     'status' => 0,

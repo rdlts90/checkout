@@ -1405,6 +1405,297 @@ var classes = [
         "violations": {}
     },
     {
+        "name": "App\\Repositories\\Cache\\StockCache",
+        "interface": false,
+        "abstract": false,
+        "final": false,
+        "methods": [
+            {
+                "name": "__construct",
+                "role": "setter",
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "getBuildKey",
+                "role": null,
+                "public": false,
+                "private": true,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "getStock",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "putStock",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "forgetStock",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "hasStock",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            }
+        ],
+        "nbMethodsIncludingGettersSetters": 6,
+        "nbMethods": 5,
+        "nbMethodsPrivate": 1,
+        "nbMethodsPublic": 4,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 1,
+        "wmc": 6,
+        "ccn": 1,
+        "ccnMethodMax": 1,
+        "externals": [
+            "Raiadrogasil\\Common\\Repository\\Cache\\Cache",
+            "Raiadrogasil\\Util\\Services\\UtilRedis"
+        ],
+        "parents": [
+            "Raiadrogasil\\Common\\Repository\\Cache\\Cache"
+        ],
+        "lcom": 1,
+        "length": 57,
+        "vocabulary": 12,
+        "volume": 204.34,
+        "difficulty": 7.17,
+        "effort": 1464.46,
+        "level": 0.14,
+        "bugs": 0.07,
+        "time": 81,
+        "intelligentContent": 28.51,
+        "number_operators": 14,
+        "number_operands": 43,
+        "number_operators_unique": 3,
+        "number_operands_unique": 9,
+        "cloc": 35,
+        "loc": 69,
+        "lloc": 34,
+        "mi": 94.92,
+        "mIwoC": 50.28,
+        "commentWeight": 44.64,
+        "kanDefect": 0.15,
+        "relativeStructuralComplexity": 25,
+        "relativeDataComplexity": 1.14,
+        "relativeSystemComplexity": 26.14,
+        "totalStructuralComplexity": 150,
+        "totalDataComplexity": 6.83,
+        "totalSystemComplexity": 156.83,
+        "package": "App\\Repositories\\Cache\\",
+        "pageRank": 0.02,
+        "afferentCoupling": 0,
+        "efferentCoupling": 2,
+        "instability": 1,
+        "violations": {}
+    },
+    {
+        "name": "App\\Repositories\\Cache\\PriceCache",
+        "interface": false,
+        "abstract": false,
+        "final": false,
+        "methods": [
+            {
+                "name": "__construct",
+                "role": "setter",
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "getBuildKey",
+                "role": null,
+                "public": false,
+                "private": true,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "getPrice",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "putPrice",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "forgetPrice",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "hasPrice",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            }
+        ],
+        "nbMethodsIncludingGettersSetters": 6,
+        "nbMethods": 5,
+        "nbMethodsPrivate": 1,
+        "nbMethodsPublic": 4,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 1,
+        "wmc": 6,
+        "ccn": 1,
+        "ccnMethodMax": 1,
+        "externals": [
+            "Raiadrogasil\\Common\\Repository\\Cache\\Cache",
+            "Raiadrogasil\\Util\\Services\\UtilRedis"
+        ],
+        "parents": [
+            "Raiadrogasil\\Common\\Repository\\Cache\\Cache"
+        ],
+        "lcom": 1,
+        "length": 57,
+        "vocabulary": 12,
+        "volume": 204.34,
+        "difficulty": 7.17,
+        "effort": 1464.46,
+        "level": 0.14,
+        "bugs": 0.07,
+        "time": 81,
+        "intelligentContent": 28.51,
+        "number_operators": 14,
+        "number_operands": 43,
+        "number_operators_unique": 3,
+        "number_operands_unique": 9,
+        "cloc": 35,
+        "loc": 69,
+        "lloc": 34,
+        "mi": 94.92,
+        "mIwoC": 50.28,
+        "commentWeight": 44.64,
+        "kanDefect": 0.15,
+        "relativeStructuralComplexity": 25,
+        "relativeDataComplexity": 1.14,
+        "relativeSystemComplexity": 26.14,
+        "totalStructuralComplexity": 150,
+        "totalDataComplexity": 6.83,
+        "totalSystemComplexity": 156.83,
+        "package": "App\\Repositories\\Cache\\",
+        "pageRank": 0.02,
+        "afferentCoupling": 0,
+        "efferentCoupling": 2,
+        "instability": 1,
+        "violations": {}
+    },
+    {
+        "name": "App\\Repositories\\Cache\\ShippingCache",
+        "interface": false,
+        "abstract": false,
+        "final": false,
+        "methods": [
+            {
+                "name": "__construct",
+                "role": "setter",
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "getBuildKey",
+                "role": null,
+                "public": false,
+                "private": true,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "getShipping",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "putShipping",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "forgetShipping",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            },
+            {
+                "name": "hasShipping",
+                "role": null,
+                "public": true,
+                "private": false,
+                "_type": "Hal\\Metric\\FunctionMetric"
+            }
+        ],
+        "nbMethodsIncludingGettersSetters": 6,
+        "nbMethods": 5,
+        "nbMethodsPrivate": 1,
+        "nbMethodsPublic": 4,
+        "nbMethodsGetter": 0,
+        "nbMethodsSetters": 1,
+        "wmc": 6,
+        "ccn": 1,
+        "ccnMethodMax": 1,
+        "externals": [
+            "Raiadrogasil\\Common\\Repository\\Cache\\Cache",
+            "Raiadrogasil\\Util\\Services\\UtilRedis"
+        ],
+        "parents": [
+            "Raiadrogasil\\Common\\Repository\\Cache\\Cache"
+        ],
+        "lcom": 1,
+        "length": 69,
+        "vocabulary": 14,
+        "volume": 262.71,
+        "difficulty": 7.5,
+        "effort": 1970.31,
+        "level": 0.13,
+        "bugs": 0.09,
+        "time": 109,
+        "intelligentContent": 35.03,
+        "number_operators": 14,
+        "number_operands": 55,
+        "number_operators_unique": 3,
+        "number_operands_unique": 11,
+        "cloc": 41,
+        "loc": 75,
+        "lloc": 34,
+        "mi": 95.06,
+        "mIwoC": 49.52,
+        "commentWeight": 45.54,
+        "kanDefect": 0.15,
+        "relativeStructuralComplexity": 25,
+        "relativeDataComplexity": 1.31,
+        "relativeSystemComplexity": 26.31,
+        "totalStructuralComplexity": 150,
+        "totalDataComplexity": 7.83,
+        "totalSystemComplexity": 157.83,
+        "package": "App\\Repositories\\Cache\\",
+        "pageRank": 0.02,
+        "afferentCoupling": 0,
+        "efferentCoupling": 2,
+        "instability": 1,
+        "violations": {}
+    },
+    {
         "name": "App\\Repositories\\ProductRepository",
         "interface": false,
         "abstract": false,
@@ -1566,7 +1857,7 @@ var classes = [
         "totalDataComplexity": 49,
         "totalSystemComplexity": 49,
         "package": "App\\Domain\\DTO\\",
-        "pageRank": 0.34,
+        "pageRank": 0.33,
         "afferentCoupling": 8,
         "efferentCoupling": 2,
         "instability": 0.2,

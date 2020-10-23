@@ -93,6 +93,73 @@ $coverage->setData(array (
     ),
     78 => NULL,
   ),
+  '/var/www/html/ms/checkout/app/Repositories/Cache/ShippingCache.php' => 
+  array (
+    23 => 
+    array (
+      0 => 'ShippingCacheTest::testGetShippingShouldNullToCacheNull',
+      1 => 'ShippingCacheTest::testGetShipping',
+      2 => 'ShippingCacheTest::testPutShippinghouldNullToArrayNull',
+      3 => 'ShippingCacheTest::testForgetShipping',
+      4 => 'ShippingCacheTest::testHasShipping',
+    ),
+    24 => 
+    array (
+      0 => 'ShippingCacheTest::testGetShippingShouldNullToCacheNull',
+      1 => 'ShippingCacheTest::testGetShipping',
+      2 => 'ShippingCacheTest::testPutShippinghouldNullToArrayNull',
+      3 => 'ShippingCacheTest::testForgetShipping',
+      4 => 'ShippingCacheTest::testHasShipping',
+    ),
+    28 => 
+    array (
+      0 => 'ShippingCacheTest::testGetBuildKey',
+      1 => 'ShippingCacheTest::testGetShippingShouldNullToCacheNull',
+      2 => 'ShippingCacheTest::testGetShipping',
+      3 => 'ShippingCacheTest::testPutShippinghouldNullToArrayNull',
+      4 => 'ShippingCacheTest::testForgetShipping',
+      5 => 'ShippingCacheTest::testHasShipping',
+    ),
+    29 => NULL,
+    42 => 
+    array (
+      0 => 'ShippingCacheTest::testGetShippingShouldNullToCacheNull',
+      1 => 'ShippingCacheTest::testGetShipping',
+    ),
+    43 => 
+    array (
+      0 => 'ShippingCacheTest::testGetShippingShouldNullToCacheNull',
+      1 => 'ShippingCacheTest::testGetShipping',
+    ),
+    44 => NULL,
+    58 => 
+    array (
+      0 => 'ShippingCacheTest::testPutShippinghouldNullToArrayNull',
+    ),
+    59 => 
+    array (
+      0 => 'ShippingCacheTest::testPutShippinghouldNullToArrayNull',
+    ),
+    60 => NULL,
+    70 => 
+    array (
+      0 => 'ShippingCacheTest::testForgetShipping',
+    ),
+    71 => 
+    array (
+      0 => 'ShippingCacheTest::testForgetShipping',
+    ),
+    72 => NULL,
+    85 => 
+    array (
+      0 => 'ShippingCacheTest::testHasShipping',
+    ),
+    86 => 
+    array (
+      0 => 'ShippingCacheTest::testHasShipping',
+    ),
+    87 => NULL,
+  ),
   '/var/www/html/ms/checkout/app/Services/ProductService.php' => 
   array (
     17 => 
@@ -105,6 +172,7 @@ $coverage->setData(array (
     ),
     30 => 
     array (
+      0 => 'ProductServiceTest::testGetAll',
     ),
     31 => NULL,
   ),
@@ -112,51 +180,98 @@ $coverage->setData(array (
   array (
     37 => 
     array (
+      0 => 'CompositionTest::testWithPriceStockShipping',
+      1 => 'CompositionTest::testPriceStockWithoutShipping',
+      2 => 'ProductIntegrationServiceTest::testGetAllCheckout',
+      3 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
     ),
     39 => 
     array (
+      0 => 'CompositionTest::testWithPriceStockShipping',
+      1 => 'CompositionTest::testPriceStockWithoutShipping',
+      2 => 'ProductIntegrationServiceTest::testGetAllCheckout',
+      3 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
     ),
     40 => NULL,
     49 => 
     array (
+      0 => 'CompositionTest::testWithPriceStockShipping',
     ),
     50 => NULL,
     61 => 
     array (
+      0 => 'CompositionTest::testWithPriceStockShipping',
     ),
     62 => NULL,
     73 => 
     array (
+      0 => 'CompositionTest::testWithPriceStockShipping',
+      1 => 'CompositionTest::testPriceWithoutStockShippig',
+      2 => 'CompositionTest::testPriceStockWithoutShipping',
+      3 => 'ProductIntegrationServiceTest::testGetAllCheckout',
+      4 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
     ),
     75 => 
     array (
+      0 => 'CompositionTest::testWithPriceStockShipping',
+      1 => 'CompositionTest::testPriceWithoutStockShippig',
+      2 => 'CompositionTest::testPriceStockWithoutShipping',
+      3 => 'ProductIntegrationServiceTest::testGetAllCheckout',
+      4 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
     ),
     76 => NULL,
     87 => 
     array (
+      0 => 'CompositionTest::testWithPriceStockShipping',
+      1 => 'ProductIntegrationServiceTest::testGetAllCheckout',
+      2 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
     ),
     89 => 
     array (
+      0 => 'CompositionTest::testWithPriceStockShipping',
+      1 => 'ProductIntegrationServiceTest::testGetAllCheckout',
+      2 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
     ),
     90 => NULL,
     101 => 
     array (
+      0 => 'CompositionTest::testWithPriceStockShipping',
     ),
     102 => NULL,
     111 => 
     array (
+      0 => 'CompositionTest::testWithPriceStockShipping',
+      1 => 'CompositionTest::testPriceWithoutStockShippig',
+      2 => 'CompositionTest::testPriceStockWithoutShipping',
+      3 => 'ProductIntegrationServiceTest::testGetAllCheckout',
     ),
     112 => 
     array (
+      0 => 'CompositionTest::testWithPriceStockShipping',
+      1 => 'CompositionTest::testPriceWithoutStockShippig',
+      2 => 'CompositionTest::testPriceStockWithoutShipping',
+      3 => 'ProductIntegrationServiceTest::testGetAllCheckout',
     ),
     113 => 
     array (
+      0 => 'CompositionTest::testWithPriceStockShipping',
+      1 => 'CompositionTest::testPriceWithoutStockShippig',
+      2 => 'CompositionTest::testPriceStockWithoutShipping',
+      3 => 'ProductIntegrationServiceTest::testGetAllCheckout',
     ),
     114 => 
     array (
+      0 => 'CompositionTest::testWithPriceStockShipping',
+      1 => 'CompositionTest::testPriceWithoutStockShippig',
+      2 => 'CompositionTest::testPriceStockWithoutShipping',
+      3 => 'ProductIntegrationServiceTest::testGetAllCheckout',
     ),
     117 => 
     array (
+      0 => 'CompositionTest::testWithPriceStockShipping',
+      1 => 'CompositionTest::testPriceWithoutStockShippig',
+      2 => 'CompositionTest::testPriceStockWithoutShipping',
+      3 => 'ProductIntegrationServiceTest::testGetAllCheckout',
     ),
     118 => NULL,
   ),
@@ -399,6 +514,73 @@ $coverage->setData(array (
     ),
     78 => NULL,
   ),
+  '/var/www/html/ms/checkout/app/Repositories/Cache/StockCache.php' => 
+  array (
+    23 => 
+    array (
+      0 => 'StockCacheTest::testGetStockShouldNullToCacheNull',
+      1 => 'StockCacheTest::testGetStock',
+      2 => 'StockCacheTest::testPutStockhouldNullToArrayNull',
+      3 => 'StockCacheTest::testForgetStock',
+      4 => 'StockCacheTest::testHasStock',
+    ),
+    24 => 
+    array (
+      0 => 'StockCacheTest::testGetStockShouldNullToCacheNull',
+      1 => 'StockCacheTest::testGetStock',
+      2 => 'StockCacheTest::testPutStockhouldNullToArrayNull',
+      3 => 'StockCacheTest::testForgetStock',
+      4 => 'StockCacheTest::testHasStock',
+    ),
+    28 => 
+    array (
+      0 => 'StockCacheTest::testGetBuildKey',
+      1 => 'StockCacheTest::testGetStockShouldNullToCacheNull',
+      2 => 'StockCacheTest::testGetStock',
+      3 => 'StockCacheTest::testPutStockhouldNullToArrayNull',
+      4 => 'StockCacheTest::testForgetStock',
+      5 => 'StockCacheTest::testHasStock',
+    ),
+    29 => NULL,
+    40 => 
+    array (
+      0 => 'StockCacheTest::testGetStockShouldNullToCacheNull',
+      1 => 'StockCacheTest::testGetStock',
+    ),
+    41 => 
+    array (
+      0 => 'StockCacheTest::testGetStockShouldNullToCacheNull',
+      1 => 'StockCacheTest::testGetStock',
+    ),
+    42 => NULL,
+    54 => 
+    array (
+      0 => 'StockCacheTest::testPutStockhouldNullToArrayNull',
+    ),
+    55 => 
+    array (
+      0 => 'StockCacheTest::testPutStockhouldNullToArrayNull',
+    ),
+    56 => NULL,
+    66 => 
+    array (
+      0 => 'StockCacheTest::testForgetStock',
+    ),
+    67 => 
+    array (
+      0 => 'StockCacheTest::testForgetStock',
+    ),
+    68 => NULL,
+    79 => 
+    array (
+      0 => 'StockCacheTest::testHasStock',
+    ),
+    80 => 
+    array (
+      0 => 'StockCacheTest::testHasStock',
+    ),
+    81 => NULL,
+  ),
   '/var/www/html/ms/checkout/app/Repositories/ProductRepositoryInterface.php' => 
   array (
   ),
@@ -476,26 +658,107 @@ $coverage->setData(array (
     ),
     67 => 
     array (
+      0 => 'ProductIntegrationServiceTest::testGetAllCheckout',
+      1 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
     ),
     68 => 
     array (
+      0 => 'ProductIntegrationServiceTest::testGetAllCheckout',
+      1 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
     ),
     69 => 
     array (
+      0 => 'ProductIntegrationServiceTest::testGetAllCheckout',
+      1 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
     ),
     72 => 
     array (
+      0 => 'ProductIntegrationServiceTest::testGetAllCheckout',
+      1 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
     ),
     73 => 
     array (
+      0 => 'ProductIntegrationServiceTest::testGetAllCheckout',
+      1 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
     ),
     74 => 
     array (
+      0 => 'ProductIntegrationServiceTest::testGetAllCheckout',
+      1 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
     ),
     76 => 
     array (
+      0 => 'ProductIntegrationServiceTest::testGetAllCheckout',
+      1 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
     ),
     77 => NULL,
+  ),
+  '/var/www/html/ms/checkout/app/Repositories/Cache/PriceCache.php' => 
+  array (
+    23 => 
+    array (
+      0 => 'PriceCacheTest::testGetPriceShouldNullToCacheNull',
+      1 => 'PriceCacheTest::testGetPrice',
+      2 => 'PriceCacheTest::testPutPriceShouldNullToArrayNull',
+      3 => 'PriceCacheTest::testForgetPrice',
+      4 => 'PriceCacheTest::testHasPrice',
+    ),
+    24 => 
+    array (
+      0 => 'PriceCacheTest::testGetPriceShouldNullToCacheNull',
+      1 => 'PriceCacheTest::testGetPrice',
+      2 => 'PriceCacheTest::testPutPriceShouldNullToArrayNull',
+      3 => 'PriceCacheTest::testForgetPrice',
+      4 => 'PriceCacheTest::testHasPrice',
+    ),
+    28 => 
+    array (
+      0 => 'PriceCacheTest::testGetBuildKey',
+      1 => 'PriceCacheTest::testGetPriceShouldNullToCacheNull',
+      2 => 'PriceCacheTest::testGetPrice',
+      3 => 'PriceCacheTest::testPutPriceShouldNullToArrayNull',
+      4 => 'PriceCacheTest::testForgetPrice',
+      5 => 'PriceCacheTest::testHasPrice',
+    ),
+    29 => NULL,
+    40 => 
+    array (
+      0 => 'PriceCacheTest::testGetPriceShouldNullToCacheNull',
+      1 => 'PriceCacheTest::testGetPrice',
+    ),
+    41 => 
+    array (
+      0 => 'PriceCacheTest::testGetPriceShouldNullToCacheNull',
+      1 => 'PriceCacheTest::testGetPrice',
+    ),
+    42 => NULL,
+    54 => 
+    array (
+      0 => 'PriceCacheTest::testPutPriceShouldNullToArrayNull',
+    ),
+    55 => 
+    array (
+      0 => 'PriceCacheTest::testPutPriceShouldNullToArrayNull',
+    ),
+    56 => NULL,
+    66 => 
+    array (
+      0 => 'PriceCacheTest::testForgetPrice',
+    ),
+    67 => 
+    array (
+      0 => 'PriceCacheTest::testForgetPrice',
+    ),
+    68 => NULL,
+    79 => 
+    array (
+      0 => 'PriceCacheTest::testHasPrice',
+    ),
+    80 => 
+    array (
+      0 => 'PriceCacheTest::testHasPrice',
+    ),
+    81 => NULL,
   ),
   '/var/www/html/ms/checkout/app/Services/Connect/Microservice/Shipping.php' => 
   array (
@@ -532,14 +795,19 @@ $coverage->setData(array (
     36 => 
     array (
       0 => 'ShippingTest::testGetShippingQuote',
-      1 => 'ShippingTest::testGetShippingQuoteWithoutQty',
+      1 => 'ShippingTest::testGetShippingQuoteWithoutZipcode',
+      2 => 'ShippingTest::testGetShippingQuoteWithoutQty',
     ),
     38 => 
     array (
       0 => 'ShippingTest::testGetShippingQuote',
+      1 => 'ShippingTest::testGetShippingQuoteWithoutZipcode',
+      2 => 'ShippingTest::testGetShippingQuoteWithoutQty',
     ),
     39 => 
     array (
+      0 => 'ShippingTest::testGetShippingQuoteWithoutZipcode',
+      1 => 'ShippingTest::testGetShippingQuoteWithoutQty',
     ),
     42 => 
     array (
@@ -687,6 +955,96 @@ $coverage->setTests(array (
     'size' => 'unknown',
     'status' => 0,
   ),
+  'PriceCacheTest::testGetBuildKey' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'PriceCacheTest::testGetPriceShouldNullToCacheNull' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'PriceCacheTest::testGetPrice' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'PriceCacheTest::testPutPriceShouldNullToArrayNull' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'PriceCacheTest::testForgetPrice' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'PriceCacheTest::testHasPrice' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'ShippingCacheTest::testGetBuildKey' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'ShippingCacheTest::testGetShippingShouldNullToCacheNull' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'ShippingCacheTest::testGetShipping' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'ShippingCacheTest::testPutShippinghouldNullToArrayNull' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'ShippingCacheTest::testForgetShipping' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'ShippingCacheTest::testHasShipping' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'StockCacheTest::testGetBuildKey' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'StockCacheTest::testGetStockShouldNullToCacheNull' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'StockCacheTest::testGetStock' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'StockCacheTest::testPutStockhouldNullToArrayNull' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'StockCacheTest::testForgetStock' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'StockCacheTest::testHasStock' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
   'PriceTest::testGetProductPrice' => 
   array (
     'size' => 'unknown',
@@ -700,14 +1058,29 @@ $coverage->setTests(array (
   'ShippingTest::testGetShippingQuoteWithoutZipcode' => 
   array (
     'size' => 'unknown',
-    'status' => 4,
+    'status' => 0,
   ),
   'ShippingTest::testGetShippingQuoteWithoutQty' => 
   array (
     'size' => 'unknown',
-    'status' => 4,
+    'status' => 0,
   ),
   'StockTest::testGetProductStock' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CompositionTest::testWithPriceStockShipping' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CompositionTest::testPriceWithoutStockShippig' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'CompositionTest::testPriceStockWithoutShipping' => 
   array (
     'size' => 'unknown',
     'status' => 0,
@@ -715,17 +1088,17 @@ $coverage->setTests(array (
   'ProductIntegrationServiceTest::testGetAllCheckout' => 
   array (
     'size' => 'unknown',
-    'status' => 4,
+    'status' => 0,
   ),
   'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse' => 
   array (
     'size' => 'unknown',
-    'status' => 4,
+    'status' => 0,
   ),
   'ProductServiceTest::testGetAll' => 
   array (
     'size' => 'unknown',
-    'status' => 4,
+    'status' => 0,
   ),
 ));
 
@@ -747,6 +1120,9 @@ $filter->setWhitelistedFiles(array (
   '/var/www/html/ms/checkout/app/Http/API/v1/Resources/ProductCollection.php' => true,
   '/var/www/html/ms/checkout/app/Http/API/SwaggerTitle.php' => true,
   '/var/www/html/ms/checkout/app/Console/Kernel.php' => true,
+  '/var/www/html/ms/checkout/app/Repositories/Cache/StockCache.php' => true,
+  '/var/www/html/ms/checkout/app/Repositories/Cache/PriceCache.php' => true,
+  '/var/www/html/ms/checkout/app/Repositories/Cache/ShippingCache.php' => true,
   '/var/www/html/ms/checkout/app/Repositories/ProductRepositoryInterface.php' => true,
   '/var/www/html/ms/checkout/app/Repositories/ProductRepository.php' => true,
 ));

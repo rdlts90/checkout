@@ -50,7 +50,7 @@
 <div class="page">
     <div class="content content-first">
         <div class="report-details">
-            Created at 2020-10-23 11:22:50        , with PHPMetrics v2.7.4 (<a href="https://twitter.com/Halleck45">Jean-François Lépine</a>).
+            Created at 2020-10-23 14:57:16        , with PHPMetrics v2.7.4 (<a href="https://twitter.com/Halleck45">Jean-François Lépine</a>).
         </div>
 
         
@@ -515,6 +515,40 @@
         "name": "\\Illuminate\\Console\\Scheduling\\Schedule",
         "size": 3000,
         "relations": []
+    },
+    {
+        "name": "\\App\\Repositories\\Cache\\StockCache",
+        "size": 3000,
+        "relations": [
+            "\\Raiadrogasil\\Common\\Repository\\Cache\\Cache",
+            "\\Raiadrogasil\\Util\\Services\\UtilRedis"
+        ]
+    },
+    {
+        "name": "\\Raiadrogasil\\Common\\Repository\\Cache\\Cache",
+        "size": 3000,
+        "relations": []
+    },
+    {
+        "name": "\\Raiadrogasil\\Util\\Services\\UtilRedis",
+        "size": 3000,
+        "relations": []
+    },
+    {
+        "name": "\\App\\Repositories\\Cache\\PriceCache",
+        "size": 3000,
+        "relations": [
+            "\\Raiadrogasil\\Common\\Repository\\Cache\\Cache",
+            "\\Raiadrogasil\\Util\\Services\\UtilRedis"
+        ]
+    },
+    {
+        "name": "\\App\\Repositories\\Cache\\ShippingCache",
+        "size": 3000,
+        "relations": [
+            "\\Raiadrogasil\\Common\\Repository\\Cache\\Cache",
+            "\\Raiadrogasil\\Util\\Services\\UtilRedis"
+        ]
     },
     {
         "name": "\\App\\Repositories\\ProductRepository",

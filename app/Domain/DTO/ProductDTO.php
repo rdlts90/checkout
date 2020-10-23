@@ -40,7 +40,7 @@ class ProductDTO extends BaseDTO implements BaseDTOInterface
     /**
      * @return int
      */
-    public function getZipcode(): int
+    public function getZipcode()
     {
         return $this->zipCode;
     }
@@ -72,7 +72,7 @@ class ProductDTO extends BaseDTO implements BaseDTOInterface
     /**
      * @return int
      */
-    public function getQty(): int
+    public function getQty()
     {
         return $this->qty;
     }

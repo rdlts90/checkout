@@ -9,9 +9,7 @@ class CompositionTest extends \Raiadrogasil\Test\BaseTestCase
     public function setUp(): void
     {
         parent::setUp();
-
-        $this->mockComposition = Mockery::mock(Composition::class, [[]])
-            ->makePartial();
+        $this->mockComposition = Mockery::mock(Composition::class)->makePartial();
     }
 
     public function testWithPriceStockShipping()
@@ -53,47 +51,64 @@ class CompositionTest extends \Raiadrogasil\Test\BaseTestCase
         ];
 
         $this->mockComposition
-            ->getPrice($price)
-            ->getStock($stock)
-            ->getShipping($shipping);
+            ->setPrice($price)
+            ->setStock($stock)
+            ->setShipping($shipping);
 
-        $this->assertIsArray($this->mockComposition->checkoutProduct());
+            $this->assertIsArray($this->mockComposition->checkoutProduct());
     }
 
     public function testGetWithoutPriceStockShipping()
     {
+        $this->mockComposition
+        ->shouldAllowMockingProtectedMethods()
+        ->shouldReceive('getPrice', 'getStock', 'getShipping')
+        ->andReturn(collect([]));
+
+        $this->mockComposition
+            ->shouldReceive('setPrice', 'setStock', 'setShipping', 'checkoutProduct')
+            ->andReturn([]);
         $this->assertIsArray($this->mockComposition->checkoutProduct());
     }
 
     public function testPriceWithoutStockShippig()
     {
+        $this->mockComposition
+            ->shouldAllowMockingProtectedMethods()
+            ->shouldReceive('getPrice', 'getStock', 'getShipping')
+            ->andReturn(collect([]));
+        $this->mockComposition
+            ->shouldReceive('setStock', 'setShipping', 'getCheckout')
+            ->andReturn([]);
         $price = [
             "sku" => 45086,
             "valueFrom" => 11.99,
             "valueTo" => 8.99,
         ];
-
-        $this->mockComposition->getPrice($price);
-
+        $this->mockComposition->setPrice($price);
         $this->assertIsArray($this->mockComposition->checkoutProduct());
     }
 
     public function testPriceStockWithoutShipping()
     {
+        $this->mockComposition
+            ->shouldAllowMockingProtectedMethods()
+            ->shouldReceive('getPrice', 'getStock', 'getShipping')
+            ->andReturn(collect([]));
+        $this->mockComposition
+            ->shouldReceive('setShipping', 'getCheckout')
+            ->andReturn([]);
         $price = [
             "sku" => 45086,
             "valueFrom" => 11.99,
             "valueTo" => 8.99,
         ];
-
         $stock = [
             "sku" => 45086,
             "qty" => 11861
         ];
-
-        $this->mockComposition->getPrice($price);
-        $this->mockComposition->getStock($stock);
-
+        $this->mockComposition->setPrice($price);
+        $this->mockComposition->setStock($stock);
         $this->assertIsArray($this->mockComposition->checkoutProduct());
     }
 }

@@ -28,6 +28,6 @@ class ProductServiceTest extends \Raiadrogasil\Test\BaseTestCase
             ->shouldReceive('getAllCheckout')
             ->andReturn([]);
 
-        $this->assertIsArray($this->mockService->getAllCheckout($this->mockProductDTO));
+        $this->assertIsArray($this->mockService->getAll($this->mockProductDTO));
     }
 }

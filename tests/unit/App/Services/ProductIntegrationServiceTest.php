@@ -36,12 +36,20 @@ class ProductIntegrationServiceTest extends \Raiadrogasil\Test\BaseTestCase
 
     public function testGetAllCheckout()
     {
-        $this->mockComposition
-            ->shouldReceive('getPrice', 'getStock', 'getShipping')
-            ->andReturn($this->mockComposition);
+        $this->mockComposition->shouldAllowMockingProtectedMethods()
+        ->shouldReceive('getPrice', 'getStock', 'getShipping')
+        ->andReturn(collect([]));
 
-        $this->mockComposition
-            ->shouldReceive('checkoutProduct')
+        $this->mockPrice
+            ->shouldReceive('getProductPrice')
+            ->andReturn([]);
+
+        $this->mockStock
+            ->shouldReceive('getProductStock')
+            ->andReturn([]);
+
+        $this->mockShipping
+            ->shouldReceive('getProductShipping')
             ->andReturn([]);
 
         $this->assertIsArray($this->mockService->getAllCheckout($this->mockProductDTO));
@@ -49,7 +57,7 @@ class ProductIntegrationServiceTest extends \Raiadrogasil\Test\BaseTestCase
 
     public function testPriceStockShippingShouldReturnFalse()
     {
-        $this->mockComposition
+        $this->mockComposition->shouldAllowMockingProtectedMethods()
             ->shouldReceive('getPrice', 'getStock', 'getQuoteShipping')
             ->andReturn($this->mockComposition);
 

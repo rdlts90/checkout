@@ -1,0 +1,754 @@
+<?php
+$coverage = new SebastianBergmann\CodeCoverage\CodeCoverage;
+$coverage->setData(array (
+  '/var/www/html/ms/checkout/app/Util/Enum/EnumConfiguration.php' => 
+  array (
+  ),
+  '/var/www/html/ms/checkout/app/Services/Connect/Microservice/Price.php' => 
+  array (
+    21 => 
+    array (
+      0 => 'PriceTest::testGetProductPrice',
+    ),
+    22 => 
+    array (
+      0 => 'PriceTest::testGetProductPrice',
+    ),
+    33 => 
+    array (
+      0 => 'PriceTest::testGetProductPrice',
+    ),
+    34 => 
+    array (
+      0 => 'PriceTest::testGetProductPrice',
+    ),
+    36 => 
+    array (
+      0 => 'PriceTest::testGetProductPrice',
+    ),
+    38 => 
+    array (
+      0 => 'PriceTest::testGetProductPrice',
+    ),
+    39 => 
+    array (
+      0 => 'PriceTest::testGetProductPrice',
+    ),
+    40 => 
+    array (
+    ),
+    43 => 
+    array (
+      0 => 'PriceTest::testGetProductPrice',
+    ),
+    44 => NULL,
+    54 => 
+    array (
+      0 => 'PriceTest::testGetProductPrice',
+    ),
+    56 => 
+    array (
+      0 => 'PriceTest::testGetProductPrice',
+    ),
+    58 => 
+    array (
+      0 => 'PriceTest::testGetProductPrice',
+    ),
+    59 => 
+    array (
+      0 => 'PriceTest::testGetProductPrice',
+    ),
+    60 => 
+    array (
+      0 => 'PriceTest::testGetProductPrice',
+    ),
+    61 => 
+    array (
+      0 => 'PriceTest::testGetProductPrice',
+    ),
+    62 => NULL,
+    71 => 
+    array (
+      0 => 'PriceTest::testGetProductPrice',
+    ),
+    73 => 
+    array (
+      0 => 'PriceTest::testGetProductPrice',
+    ),
+    74 => 
+    array (
+      0 => 'PriceTest::testGetProductPrice',
+    ),
+    75 => 
+    array (
+      0 => 'PriceTest::testGetProductPrice',
+    ),
+    76 => 
+    array (
+      0 => 'PriceTest::testGetProductPrice',
+    ),
+    77 => 
+    array (
+      0 => 'PriceTest::testGetProductPrice',
+    ),
+    78 => NULL,
+  ),
+  '/var/www/html/ms/checkout/app/Services/ProductService.php' => 
+  array (
+    17 => 
+    array (
+      0 => 'ProductServiceTest::testGetAll',
+    ),
+    18 => 
+    array (
+      0 => 'ProductServiceTest::testGetAll',
+    ),
+    30 => 
+    array (
+    ),
+    31 => NULL,
+  ),
+  '/var/www/html/ms/checkout/app/Services/Helper/Composition.php' => 
+  array (
+    37 => 
+    array (
+    ),
+    39 => 
+    array (
+    ),
+    40 => NULL,
+    49 => 
+    array (
+    ),
+    50 => NULL,
+    61 => 
+    array (
+    ),
+    62 => NULL,
+    73 => 
+    array (
+    ),
+    75 => 
+    array (
+    ),
+    76 => NULL,
+    87 => 
+    array (
+    ),
+    89 => 
+    array (
+    ),
+    90 => NULL,
+    101 => 
+    array (
+    ),
+    102 => NULL,
+    111 => 
+    array (
+    ),
+    112 => 
+    array (
+    ),
+    113 => 
+    array (
+    ),
+    114 => 
+    array (
+    ),
+    117 => 
+    array (
+    ),
+    118 => NULL,
+  ),
+  '/var/www/html/ms/checkout/app/Services/ProductServiceInterface.php' => 
+  array (
+  ),
+  '/var/www/html/ms/checkout/app/Http/API/SwaggerTitle.php' => 
+  array (
+  ),
+  '/var/www/html/ms/checkout/app/Http/API/v1/Controllers/ProductController.php' => 
+  array (
+    20 => 
+    array (
+      0 => 'ProductControllerTest::testAll with data set "shouldTrueToException"',
+      1 => 'ProductControllerTest::testAll with data set "shouldTrue"',
+    ),
+    21 => 
+    array (
+      0 => 'ProductControllerTest::testAll with data set "shouldTrueToException"',
+      1 => 'ProductControllerTest::testAll with data set "shouldTrue"',
+    ),
+    359 => 
+    array (
+      0 => 'ProductControllerTest::testAll with data set "shouldTrueToException"',
+      1 => 'ProductControllerTest::testAll with data set "shouldTrue"',
+    ),
+    362 => 
+    array (
+      0 => 'ProductControllerTest::testAll with data set "shouldTrueToException"',
+      1 => 'ProductControllerTest::testAll with data set "shouldTrue"',
+    ),
+    364 => 
+    array (
+      0 => 'ProductControllerTest::testAll with data set "shouldTrueToException"',
+    ),
+    365 => 
+    array (
+      0 => 'ProductControllerTest::testAll with data set "shouldTrueToException"',
+    ),
+    368 => 
+    array (
+      0 => 'ProductControllerTest::testAll with data set "shouldTrue"',
+    ),
+    370 => 
+    array (
+      0 => 'ProductControllerTest::testAll with data set "shouldTrue"',
+    ),
+    371 => 
+    array (
+      0 => 'ProductControllerTest::testAll with data set "shouldTrue"',
+    ),
+    372 => 
+    array (
+      0 => 'ProductControllerTest::testAll with data set "shouldTrue"',
+    ),
+    375 => 
+    array (
+      0 => 'ProductControllerTest::testAll with data set "shouldTrue"',
+    ),
+    376 => NULL,
+  ),
+  '/var/www/html/ms/checkout/app/Http/API/v1/Requests/ProductRequest.php' => 
+  array (
+    19 => 
+    array (
+      0 => 'ProductRequestTest::testValidateFind with data set "shouldTrueToException"',
+      1 => 'ProductRequestTest::testValidateFind with data set "shouldTrueToValidation"',
+    ),
+    23 => 
+    array (
+      0 => 'ProductRequestTest::testValidateFind with data set "shouldTrueToValidation"',
+    ),
+    27 => 
+    array (
+      0 => 'ProductRequestTest::testValidateFind with data set "shouldTrueToValidation"',
+    ),
+    30 => 
+    array (
+      0 => 'ProductRequestTest::testValidateFind with data set "shouldTrueToValidation"',
+    ),
+    31 => 
+    array (
+      0 => 'ProductRequestTest::testValidateFind with data set "shouldTrueToValidation"',
+    ),
+    33 => 
+    array (
+      0 => 'ProductRequestTest::testValidateFind with data set "shouldTrueToValidation"',
+    ),
+    34 => NULL,
+    45 => 
+    array (
+      0 => 'ProductRequestTest::testValidateAdd with data set "shouldTrueToException"',
+      1 => 'ProductRequestTest::testValidateAdd with data set "shouldTrueToValidation"',
+    ),
+    46 => 
+    array (
+      0 => 'ProductRequestTest::testValidateAdd with data set "shouldTrueToException"',
+      1 => 'ProductRequestTest::testValidateAdd with data set "shouldTrueToValidation"',
+    ),
+    49 => 
+    array (
+      0 => 'ProductRequestTest::testValidateAdd with data set "shouldTrueToValidation"',
+    ),
+    51 => 
+    array (
+      0 => 'ProductRequestTest::testValidateAdd with data set "shouldTrueToValidation"',
+    ),
+    52 => NULL,
+    64 => 
+    array (
+      0 => 'ProductRequestTest::testValidateUpdate with data set "shouldTrueToException"',
+      1 => 'ProductRequestTest::testValidateUpdate with data set "shouldTrueToValidation"',
+    ),
+    65 => 
+    array (
+      0 => 'ProductRequestTest::testValidateUpdate with data set "shouldTrueToException"',
+      1 => 'ProductRequestTest::testValidateUpdate with data set "shouldTrueToValidation"',
+    ),
+    68 => 
+    array (
+      0 => 'ProductRequestTest::testValidateUpdate with data set "shouldTrueToValidation"',
+    ),
+    70 => 
+    array (
+      0 => 'ProductRequestTest::testValidateUpdate with data set "shouldTrueToValidation"',
+    ),
+    71 => NULL,
+  ),
+  '/var/www/html/ms/checkout/app/Http/API/v1/Resources/ProductResource.php' => 
+  array (
+    11 => 
+    array (
+      0 => 'ProductResourceTest::testConfigureNodeParser',
+    ),
+    12 => 
+    array (
+      0 => 'ProductResourceTest::testConfigureNodeParser',
+    ),
+    15 => 
+    array (
+      0 => 'ProductResourceTest::testConfigureNodeParser',
+    ),
+    16 => NULL,
+    21 => 
+    array (
+      0 => 'ProductResourceTest::testConfigureMainParser',
+    ),
+    23 => 
+    array (
+      0 => 'ProductResourceTest::testConfigureMainParser',
+    ),
+    24 => NULL,
+  ),
+  '/var/www/html/ms/checkout/app/Services/Connect/Microservice/Stock.php' => 
+  array (
+    21 => 
+    array (
+      0 => 'StockTest::testGetProductStock',
+    ),
+    22 => 
+    array (
+      0 => 'StockTest::testGetProductStock',
+    ),
+    33 => 
+    array (
+      0 => 'StockTest::testGetProductStock',
+    ),
+    34 => 
+    array (
+      0 => 'StockTest::testGetProductStock',
+    ),
+    36 => 
+    array (
+      0 => 'StockTest::testGetProductStock',
+    ),
+    38 => 
+    array (
+      0 => 'StockTest::testGetProductStock',
+    ),
+    39 => 
+    array (
+      0 => 'StockTest::testGetProductStock',
+    ),
+    40 => 
+    array (
+    ),
+    43 => 
+    array (
+      0 => 'StockTest::testGetProductStock',
+    ),
+    44 => NULL,
+    54 => 
+    array (
+      0 => 'StockTest::testGetProductStock',
+    ),
+    56 => 
+    array (
+      0 => 'StockTest::testGetProductStock',
+    ),
+    58 => 
+    array (
+      0 => 'StockTest::testGetProductStock',
+    ),
+    59 => 
+    array (
+      0 => 'StockTest::testGetProductStock',
+    ),
+    60 => 
+    array (
+      0 => 'StockTest::testGetProductStock',
+    ),
+    61 => 
+    array (
+      0 => 'StockTest::testGetProductStock',
+    ),
+    62 => NULL,
+    71 => 
+    array (
+      0 => 'StockTest::testGetProductStock',
+    ),
+    73 => 
+    array (
+      0 => 'StockTest::testGetProductStock',
+    ),
+    74 => 
+    array (
+      0 => 'StockTest::testGetProductStock',
+    ),
+    75 => 
+    array (
+      0 => 'StockTest::testGetProductStock',
+    ),
+    76 => 
+    array (
+      0 => 'StockTest::testGetProductStock',
+    ),
+    77 => 
+    array (
+      0 => 'StockTest::testGetProductStock',
+    ),
+    78 => NULL,
+  ),
+  '/var/www/html/ms/checkout/app/Repositories/ProductRepositoryInterface.php' => 
+  array (
+  ),
+  '/var/www/html/ms/checkout/app/Repositories/ProductRepository.php' => 
+  array (
+    18 => 
+    array (
+      0 => 'ProductRepositoryTest::testModel',
+    ),
+    19 => NULL,
+  ),
+  '/var/www/html/ms/checkout/app/Http/API/v1/Resources/ProductCollection.php' => 
+  array (
+    23 => 
+    array (
+      0 => 'ProductCollectionTest::testConfigureMainParser',
+    ),
+    24 => 
+    array (
+      0 => 'ProductCollectionTest::testConfigureMainParser',
+    ),
+    26 => 
+    array (
+      0 => 'ProductCollectionTest::testConfigureMainParser',
+    ),
+    27 => 
+    array (
+      0 => 'ProductCollectionTest::testConfigureMainParser',
+    ),
+    28 => 
+    array (
+      0 => 'ProductCollectionTest::testConfigureMainParser',
+    ),
+    31 => 
+    array (
+      0 => 'ProductCollectionTest::testConfigureMainParser',
+    ),
+    32 => NULL,
+  ),
+  '/var/www/html/ms/checkout/app/Console/Kernel.php' => 
+  array (
+  ),
+  '/var/www/html/ms/checkout/app/Services/ProductIntegrationServiceInterface.php' => 
+  array (
+  ),
+  '/var/www/html/ms/checkout/app/Util/Enum/EnumProduct.php' => 
+  array (
+  ),
+  '/var/www/html/ms/checkout/app/Services/ProductIntegrationService.php' => 
+  array (
+    50 => 
+    array (
+      0 => 'ProductIntegrationServiceTest::testGetAllCheckout',
+      1 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
+    ),
+    51 => 
+    array (
+      0 => 'ProductIntegrationServiceTest::testGetAllCheckout',
+      1 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
+    ),
+    52 => 
+    array (
+      0 => 'ProductIntegrationServiceTest::testGetAllCheckout',
+      1 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
+    ),
+    53 => 
+    array (
+      0 => 'ProductIntegrationServiceTest::testGetAllCheckout',
+      1 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
+    ),
+    54 => 
+    array (
+      0 => 'ProductIntegrationServiceTest::testGetAllCheckout',
+      1 => 'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse',
+    ),
+    67 => 
+    array (
+    ),
+    68 => 
+    array (
+    ),
+    69 => 
+    array (
+    ),
+    72 => 
+    array (
+    ),
+    73 => 
+    array (
+    ),
+    74 => 
+    array (
+    ),
+    76 => 
+    array (
+    ),
+    77 => NULL,
+  ),
+  '/var/www/html/ms/checkout/app/Services/Connect/Microservice/Shipping.php' => 
+  array (
+    21 => 
+    array (
+      0 => 'ShippingTest::testGetShippingQuote',
+      1 => 'ShippingTest::testGetShippingQuoteWithoutZipcode',
+      2 => 'ShippingTest::testGetShippingQuoteWithoutQty',
+    ),
+    22 => 
+    array (
+      0 => 'ShippingTest::testGetShippingQuote',
+      1 => 'ShippingTest::testGetShippingQuoteWithoutZipcode',
+      2 => 'ShippingTest::testGetShippingQuoteWithoutQty',
+    ),
+    33 => 
+    array (
+      0 => 'ShippingTest::testGetShippingQuote',
+      1 => 'ShippingTest::testGetShippingQuoteWithoutZipcode',
+      2 => 'ShippingTest::testGetShippingQuoteWithoutQty',
+    ),
+    34 => 
+    array (
+      0 => 'ShippingTest::testGetShippingQuote',
+      1 => 'ShippingTest::testGetShippingQuoteWithoutZipcode',
+      2 => 'ShippingTest::testGetShippingQuoteWithoutQty',
+    ),
+    35 => 
+    array (
+      0 => 'ShippingTest::testGetShippingQuote',
+      1 => 'ShippingTest::testGetShippingQuoteWithoutZipcode',
+      2 => 'ShippingTest::testGetShippingQuoteWithoutQty',
+    ),
+    36 => 
+    array (
+      0 => 'ShippingTest::testGetShippingQuote',
+      1 => 'ShippingTest::testGetShippingQuoteWithoutQty',
+    ),
+    38 => 
+    array (
+      0 => 'ShippingTest::testGetShippingQuote',
+    ),
+    39 => 
+    array (
+    ),
+    42 => 
+    array (
+      0 => 'ShippingTest::testGetShippingQuote',
+    ),
+    44 => 
+    array (
+      0 => 'ShippingTest::testGetShippingQuote',
+    ),
+    45 => 
+    array (
+      0 => 'ShippingTest::testGetShippingQuote',
+    ),
+    46 => 
+    array (
+    ),
+    49 => 
+    array (
+      0 => 'ShippingTest::testGetShippingQuote',
+    ),
+    50 => NULL,
+    62 => 
+    array (
+      0 => 'ShippingTest::testGetShippingQuote',
+    ),
+    64 => 
+    array (
+      0 => 'ShippingTest::testGetShippingQuote',
+    ),
+    66 => 
+    array (
+      0 => 'ShippingTest::testGetShippingQuote',
+    ),
+    67 => 
+    array (
+      0 => 'ShippingTest::testGetShippingQuote',
+    ),
+    68 => 
+    array (
+      0 => 'ShippingTest::testGetShippingQuote',
+    ),
+    69 => 
+    array (
+      0 => 'ShippingTest::testGetShippingQuote',
+    ),
+    70 => 
+    array (
+      0 => 'ShippingTest::testGetShippingQuote',
+    ),
+    71 => 
+    array (
+      0 => 'ShippingTest::testGetShippingQuote',
+    ),
+    72 => NULL,
+    81 => 
+    array (
+      0 => 'ShippingTest::testGetShippingQuote',
+    ),
+    83 => 
+    array (
+      0 => 'ShippingTest::testGetShippingQuote',
+    ),
+    84 => 
+    array (
+      0 => 'ShippingTest::testGetShippingQuote',
+    ),
+    85 => 
+    array (
+      0 => 'ShippingTest::testGetShippingQuote',
+    ),
+    86 => 
+    array (
+      0 => 'ShippingTest::testGetShippingQuote',
+    ),
+    87 => 
+    array (
+      0 => 'ShippingTest::testGetShippingQuote',
+    ),
+    88 => NULL,
+  ),
+));
+$coverage->setTests(array (
+  'UNCOVERED_FILES_FROM_WHITELIST' => 
+  array (
+    'size' => 'unknown',
+    'status' => -1,
+  ),
+  'ProductControllerTest::testAll with data set "shouldTrueToException"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'ProductControllerTest::testAll with data set "shouldTrue"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'ProductRequestTest::testValidateFind with data set "shouldTrueToException"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'ProductRequestTest::testValidateFind with data set "shouldTrueToValidation"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'ProductRequestTest::testValidateAdd with data set "shouldTrueToException"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'ProductRequestTest::testValidateAdd with data set "shouldTrueToValidation"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'ProductRequestTest::testValidateUpdate with data set "shouldTrueToException"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'ProductRequestTest::testValidateUpdate with data set "shouldTrueToValidation"' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'ProductCollectionTest::testConfigureMainParser' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'ProductResourceTest::testConfigureMainParser' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'ProductResourceTest::testConfigureNodeParser' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'ProductRepositoryTest::testModel' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'PriceTest::testGetProductPrice' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'ShippingTest::testGetShippingQuote' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'ShippingTest::testGetShippingQuoteWithoutZipcode' => 
+  array (
+    'size' => 'unknown',
+    'status' => 4,
+  ),
+  'ShippingTest::testGetShippingQuoteWithoutQty' => 
+  array (
+    'size' => 'unknown',
+    'status' => 4,
+  ),
+  'StockTest::testGetProductStock' => 
+  array (
+    'size' => 'unknown',
+    'status' => 0,
+  ),
+  'ProductIntegrationServiceTest::testGetAllCheckout' => 
+  array (
+    'size' => 'unknown',
+    'status' => 4,
+  ),
+  'ProductIntegrationServiceTest::testPriceStockShippingShouldReturnFalse' => 
+  array (
+    'size' => 'unknown',
+    'status' => 4,
+  ),
+  'ProductServiceTest::testGetAll' => 
+  array (
+    'size' => 'unknown',
+    'status' => 4,
+  ),
+));
+
+$filter = $coverage->filter();
+$filter->setWhitelistedFiles(array (
+  '/var/www/html/ms/checkout/app/Util/Enum/EnumProduct.php' => true,
+  '/var/www/html/ms/checkout/app/Util/Enum/EnumConfiguration.php' => true,
+  '/var/www/html/ms/checkout/app/Services/ProductIntegrationService.php' => true,
+  '/var/www/html/ms/checkout/app/Services/ProductIntegrationServiceInterface.php' => true,
+  '/var/www/html/ms/checkout/app/Services/ProductService.php' => true,
+  '/var/www/html/ms/checkout/app/Services/Helper/Composition.php' => true,
+  '/var/www/html/ms/checkout/app/Services/Connect/Microservice/Shipping.php' => true,
+  '/var/www/html/ms/checkout/app/Services/Connect/Microservice/Price.php' => true,
+  '/var/www/html/ms/checkout/app/Services/Connect/Microservice/Stock.php' => true,
+  '/var/www/html/ms/checkout/app/Services/ProductServiceInterface.php' => true,
+  '/var/www/html/ms/checkout/app/Http/API/v1/Controllers/ProductController.php' => true,
+  '/var/www/html/ms/checkout/app/Http/API/v1/Requests/ProductRequest.php' => true,
+  '/var/www/html/ms/checkout/app/Http/API/v1/Resources/ProductResource.php' => true,
+  '/var/www/html/ms/checkout/app/Http/API/v1/Resources/ProductCollection.php' => true,
+  '/var/www/html/ms/checkout/app/Http/API/SwaggerTitle.php' => true,
+  '/var/www/html/ms/checkout/app/Console/Kernel.php' => true,
+  '/var/www/html/ms/checkout/app/Repositories/ProductRepositoryInterface.php' => true,
+  '/var/www/html/ms/checkout/app/Repositories/ProductRepository.php' => true,
+));
+
+return $coverage;

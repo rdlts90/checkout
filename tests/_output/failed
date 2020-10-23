@@ -1,0 +1,9 @@
+tests/unit/App/Services/Connect/ShippingTest.php:testGetShippingQuoteWithoutZipcode
+tests/unit/App/Services/Connect/ShippingTest.php:testGetShippingQuoteWithoutQty
+tests/unit/App/Services/Helper/CompositionTest.php:testWithPriceStockShipping
+tests/unit/App/Services/Helper/CompositionTest.php:testGetWithoutPriceStockShipping
+tests/unit/App/Services/Helper/CompositionTest.php:testPriceWithoutStockShippig
+tests/unit/App/Services/Helper/CompositionTest.php:testPriceStockWithoutShipping
+tests/unit/App/Services/ProductIntegrationServiceTest.php:testGetAllCheckout
+tests/unit/App/Services/ProductIntegrationServiceTest.php:testPriceStockShippingShouldReturnFalse
+tests/unit/App/Services/ProductServiceTest.php:testGetAll

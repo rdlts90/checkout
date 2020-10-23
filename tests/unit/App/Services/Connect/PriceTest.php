@@ -1,0 +1,30 @@
+<?php
+
+use App\Domain\DTO\ProductDTO;
+
+class PriceTest extends \Raiadrogasil\Test\BaseTestCase
+{
+    public function setUp(): void
+    {
+        parent::setUp();
+    }
+
+    public function testGetProductPrice()
+    {
+        $productDTO = Mockery::mock(\App\Domain\DTO\ProductDTO::class)->makePartial();
+        $productDTO->shouldReceive('getStoreName')->andReturn('DROGASIL');
+        $productDTO->shouldReceive('getSku')->andReturn(123);
+
+        $responseDefaultDTO = Mockery::mock(\Raiadrogasil\Connect\DTO\ResponseDefaultDTO::class)->makePartial()
+            ->shouldReceive('getResults')->andReturn(['results' => 'NA'])->getMock();
+
+        $conn = Mockery::mock(\Raiadrogasil\Connect\ClientConnect::class)->makePartial();
+        $conn->shouldReceive('send')->andReturn($responseDefaultDTO);
+
+        $mock = Mockery::mock(\App\Services\Connect\Microservice\Price::class, [$conn])->makePartial()->shouldAllowMockingProtectedMethods()
+            ->shouldReceive('buildBodyRequestOffer')->andReturn(['NA'])->getMock();
+
+        $result = $mock->getProductPrice($productDTO);
+        $this->assertEquals('NA', $result);
+    }
+}
